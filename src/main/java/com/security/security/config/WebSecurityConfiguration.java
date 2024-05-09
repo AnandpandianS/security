@@ -10,7 +10,7 @@ import org.springframework.security.web.SecurityFilterChain;
 import static org.springframework.security.config.Customizer.withDefaults;
 
 @Configuration // Marks this class as a configuration class for Spring.
-@EnableWebSecurity // Enables web security for the application.
+@EnableWebSecurity // Enables web security for the application.application
 public class WebSecurityConfiguration {
 
     @Bean // Indicates that this method returns a Spring bean.
